@@ -424,6 +424,7 @@ body {
     opacity: 0;
     transition: var(--transition);
     padding: 30px;
+    
 }
 
 .work-item:hover .work-overlay {
