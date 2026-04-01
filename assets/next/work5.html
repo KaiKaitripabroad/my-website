@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>プログラミング教材づくり</title>
+    <title>to-do-list</title>
     <link rel="stylesheet" href="./../../assets/css/style_work2.css" />
   </head>
   <body>
@@ -26,10 +26,10 @@
         <div class="overview-content">
           <h2 class="section-title">Overview</h2>
           <p>
-            某IT企業と連携し、オンデマンドプログラム向けのHTML・CSS・JavaScriptの教材を共同制作したプロジェクトです。
+            to-do-listは、語学留学×ITのカリキュラム内で行ったミニチーム開発プロジェクトです。アニメAPIと連携し、視聴予定の作品をto-doリストとして管理できるアプリを3人チームで開発しました。
           </p>
           <p>
-            IT×語学留学への参加がきっかけとなり、帰国後にIT講師から協力依頼を受けて参加。講師と二人三脚で既存のカリキュラムを見直し、学習者がつまずきやすい箇所を丁寧にカバーした新しい教材を作成しました。
+            バックエンド担当として、Laravelを用いたデータ管理・API連携の実装を担当。アニメの検索機能に加え、コメント・レビューの閲覧機能も備えたアプリケーションを完成させました。
           </p>
           <div class="tech-stack">
             <h3>使用技術</h3>
@@ -37,6 +37,8 @@
               <span class="tech-tag">HTML</span>
               <span class="tech-tag">CSS</span>
               <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Laravel</span>
+              <span class="tech-tag">XAMPP</span>
             </div>
           </div>
         </div>
@@ -48,17 +50,24 @@
         <h2 class="section-title">開発背景</h2>
         <div class="background-grid">
           <div class="background-card">
-            <div class="card-icon">✈️</div>
-            <h3>留学がつないだご縁</h3>
+            <div class="card-icon">🌏</div>
+            <h3>留学×ITカリキュラムの一環</h3>
             <p>
-              IT×語学留学への参加がきっかけとなり、帰国後にプログラムを担当したIT講師から教材制作への協力依頼を受けました。
+              語学留学とIT学習を組み合わせたカリキュラムの中で、実践的なチーム開発としてミニプロダクト制作に取り組みました。
             </p>
           </div>
           <div class="background-card">
-            <div class="card-icon">📚</div>
-            <h3>オンデマンド教材のアップデート</h3>
+            <div class="card-icon">🎌</div>
+            <h3>アニメ×タスク管理という着想</h3>
             <p>
-              既存のオンデマンドプログラムをより充実させるため、HTML・CSS・JavaScriptの新教材を追加する必要がありました。
+              「見たいアニメを管理したい」という身近なニーズをもとに、外部APIと連携したto-doアプリというアイデアが生まれました。
+            </p>
+          </div>
+          <div class="background-card full">
+            <div class="card-icon">👥</div>
+            <h3>2グループ・3人チームでの開発体制</h3>
+            <p>
+              全体2グループ、チーム3人という体制でそれぞれが役割を分担。バックエンドを担当しながら、チームメンバーとの連携を意識して開発を進めました。
             </p>
           </div>
         </div>
@@ -69,28 +78,28 @@
       <div class="process-container">
         <h2 class="section-title">Process</h2>
         <p style="color: var(--color-text-light); font-size: 15px; margin-bottom: 0;">
-          制作の流れ（2025年10月 〜 12月）
+          制作の流れ（2025年4月 〜 2026年5月）
         </p>
         <div class="timeline">
           <div class="timeline-item">
             <p class="timeline-phase">Phase 1</p>
-            <h3 class="timeline-title">内容の整理・構成設計</h3>
+            <h3 class="timeline-title">企画・設計</h3>
             <p class="timeline-desc">
-              既存カリキュラムの課題を講師と洗い出し、新教材でカバーする範囲と構成を設計しました。
+              アプリのコンセプト・機能要件・役割分担を決定。データベース設計と画面構成のすり合わせをチームで行いました。
             </p>
           </div>
           <div class="timeline-item">
             <p class="timeline-phase">Phase 2</p>
-            <h3 class="timeline-title">教材制作</h3>
+            <h3 class="timeline-title">バックエンド実装</h3>
             <p class="timeline-desc">
-              HTML・CSS・JavaScriptの各単元を講師と分担しながら執筆。学習者目線でわかりやすい説明と例題を意識して作成しました。
+              LaravelでAPI連携・タスク管理・コメント機能のバックエンドを実装。XAMPP環境でのローカル開発を進めました。
             </p>
           </div>
           <div class="timeline-item">
             <p class="timeline-phase">Phase 3</p>
-            <h3 class="timeline-title">レビュー・仕上げ</h3>
+            <h3 class="timeline-title">統合・仕上げ</h3>
             <p class="timeline-desc">
-              講師によるレビューをもとに内容を修正・ブラッシュアップし、オンデマンドプログラムへの組み込みを完了しました。
+              フロントエンドとバックエンドの結合・動作確認・バグ修正を経て、アプリとして完成させました。
             </p>
           </div>
         </div>
@@ -101,7 +110,7 @@
       <div class="reflection-container">
         <h2 class="section-title">所感</h2>
         <blockquote>
-          「教える」ために改めて技術を整理することで、自分自身の理解も深まりました。留学での経験が次の機会につながったことも大きな学びであり、IT業界のプロと一緒に成果物を作り上げられた貴重な経験です。
+          チーム開発を通じて、自身の基礎知識の不足を実感しました。思うように実装が進まない場面も多く、まだまだ学ぶべきことが多いと痛感しています。一方で、その気づき自体が大きな収穫であり、次の学習へのモチベーションにつながっています。
         </blockquote>
       </div>
     </section>
