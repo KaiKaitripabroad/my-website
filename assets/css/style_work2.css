@@ -170,6 +170,38 @@ a {
   letter-spacing: 1px;
 }
 
+/* ── Movie ── */
+.movie-section {
+  padding: 110px 40px;
+  background: linear-gradient(180deg, #ede4d3 0%, #e8dcc5 100%);
+}
+
+.movie-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.movie-frame {
+  margin-top: 32px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  background: #111;
+}
+
+.movie-frame video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.movie-note {
+  margin-top: 20px;
+  color: var(--color-text-light);
+  font-size: 14px;
+}
+
 /* ── Background ── */
 .background-section {
   padding: 110px 40px;
@@ -355,6 +387,7 @@ a {
   }
 
   .overview,
+  .movie-section,
   .background-section,
   .process,
   .reflection,
